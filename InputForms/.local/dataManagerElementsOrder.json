@@ -1,0 +1,103 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dtChallengeData&Sequence_3",
+        "variable1&Sequence_3",
+        "strExcelChallengeFilePath&Sequence_3",
+        "strPath&Sequence_3",
+        "businessException&Sequence_3",
+        "systemException&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Chrome/Chrome_OpenRPAChallenge.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "FileName&Sequence_22",
+        "postcondition&Sequence_23"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_BusinessException",
+        "out_SystemException"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Temp.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "postcondition&Sequence_10",
+        "Precondition&Sequence_4",
+        "FileName&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_BusinessException",
+        "out_SystemException"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Chrome/Chrome_DownloadChallengeExcel.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "postcondition&Sequence_18",
+        "FileName&Sequence_1",
+        "Precondition&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_strExcelChallengeFilePath",
+        "in_strPath",
+        "out_SystemException",
+        "out_BusinessException"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "WorkBook/workbook_ReadData.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Precondition&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_dtData",
+        "in_strFilePath",
+        "out_SystemException",
+        "out_BusinessException"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Chrome/Chrome_startChallenge.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "FileName&Sequence_1",
+        "Precondition&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_dtData",
+        "out_SystemException",
+        "out_BusinessException"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
