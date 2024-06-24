@@ -5,7 +5,7 @@
     <x:Property Name="out_BusinessException" Type="OutArgument(ui:BusinessRuleException)" />
   </x:Members>
   <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
-  <sap:VirtualizedContainerService.HintSize>1239,3607</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>942,3607</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -128,11 +128,7 @@
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="userName" />
       <Variable x:TypeArguments="x:String" Name="password" />
-      <Variable x:TypeArguments="x:String" Name="FileName">
-        <Variable.Default>
-          <Literal x:TypeArguments="x:String">Chrome_Login</Literal>
-        </Variable.Default>
-      </Variable>
+      <Variable x:TypeArguments="x:String" Default="Chrome_Login" Name="FileName" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -228,7 +224,7 @@
                             </sap:WorkflowViewStateService.ViewState>
                           </ui:Activate>
                           <ui:MaximizeWindow Window="{x:Null}" DisplayName="Maximize Window" sap:VirtualizedContainerService.HintSize="530,57" sap2010:WorkflowViewState.IdRef="MaximizeWindow_1" />
-                          <uix:NTypeInto ActivateBefore="True" sap2010:Annotation.AnnotationText="add userName&#xD;&#xA;&#xD;&#xA;Note: Edit Selector" ClickBeforeMode="None" DisplayName="Type Into-UserName" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="530,343" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="Simulate" ScopeIdentifier="63501d14-8aad-465d-bae0-020e2d619e76" Version="V3">
+                          <uix:NTypeInto ActivateBefore="True" sap2010:Annotation.AnnotationText="add userName&#xA;&#xA;Note: Edit Selector" ClickBeforeMode="None" DisplayName="Type Into-UserName" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="530,343" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="Simulate" ScopeIdentifier="63501d14-8aad-465d-bae0-020e2d619e76" Version="V3">
                             <uix:NTypeInto.Target>
                               <uix:TargetAnchorable BrowserURL="https://www.saucedemo.com/" CVScreenId="6c2aecb0-c22a-4fd2-8f2d-878f5dc35e9e" CvElementArea="532, 336, 300, 38" CvType="InputBox" DesignTimeRectangle="537, 335, 292, 39" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='user-name' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='user-name' tag='INPUT' type='text' class='input_error form_input' placeholder='Username' aaname='' /&gt;" Guid="d747383e-6358-49f7-a2a5-d3b8e0d075f9" InformativeScreenshot="fe22f3cb68ee21359b267212851c730e.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Swag Labs' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
                             </uix:NTypeInto.Target>
@@ -298,7 +294,7 @@
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
                           </uix:NClick>
-                          <ui:UiElementExists sap2010:Annotation.AnnotationText="check if error message appear after  try to login&#xD;&#xA;&#xD;&#xA;Note: Edit Selector" DisplayName="Error Message Exists" sap:VirtualizedContainerService.HintSize="530,196" sap2010:WorkflowViewState.IdRef="UiElementExists_1">
+                          <ui:UiElementExists sap2010:Annotation.AnnotationText="check if error message appear after  try to login&#xA;&#xA;Note: Edit Selector" DisplayName="Error Message Exists" sap:VirtualizedContainerService.HintSize="530,196" sap2010:WorkflowViewState.IdRef="UiElementExists_1">
                             <ui:UiElementExists.Exists>
                               <OutArgument x:TypeArguments="x:Boolean">
                                 <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_3">blErrorMessage</CSharpReference>

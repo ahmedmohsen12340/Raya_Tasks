@@ -1,0 +1,15 @@
+﻿{
+  "Name": "LinkedinHome",
+  "Type": "Screen",
+  "Id": "H__WwOXUtkeIIoMqyF_3iw",
+  "Reference": "X2TjfIbbgE6duqQa65xhlQ/H__WwOXUtkeIIoMqyF_3iw",
+  "ParentRef": "X2TjfIbbgE6duqQa65xhlQ/Mpl013q7wUe9flf3IoaRRw",
+  "Created": "2024-06-23T23:06:34.0726336Z",
+  "Updated": "2024-06-23T23:07:20.793514Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

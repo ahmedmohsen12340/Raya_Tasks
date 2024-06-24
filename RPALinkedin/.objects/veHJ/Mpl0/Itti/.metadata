@@ -1,0 +1,15 @@
+﻿{
+  "Name": "LinkedinSearch",
+  "Type": "Screen",
+  "Id": "IttiHQrO9UavoXWhNqMQGg",
+  "Reference": "X2TjfIbbgE6duqQa65xhlQ/IttiHQrO9UavoXWhNqMQGg",
+  "ParentRef": "X2TjfIbbgE6duqQa65xhlQ/Mpl013q7wUe9flf3IoaRRw",
+  "Created": "2024-06-23T23:11:11.6104119Z",
+  "Updated": "2024-06-24T12:08:11.757702Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

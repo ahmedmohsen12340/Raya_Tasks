@@ -1,0 +1,13 @@
+﻿{
+  "Name": "People",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "gWtYHm2nOUK-SY7Iqe_WwQ",
+  "Reference": "X2TjfIbbgE6duqQa65xhlQ/gWtYHm2nOUK-SY7Iqe_WwQ",
+  "ParentRef": "X2TjfIbbgE6duqQa65xhlQ/IttiHQrO9UavoXWhNqMQGg",
+  "Created": "2024-06-23T23:14:10.6952719Z",
+  "Updated": "2024-06-23T23:14:10.6952719Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

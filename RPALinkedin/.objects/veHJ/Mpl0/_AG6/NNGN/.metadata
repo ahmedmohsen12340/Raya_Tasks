@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Licenses & certifications",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "NNGNMPHskUulckEbf2E54g",
+  "Reference": "X2TjfIbbgE6duqQa65xhlQ/NNGNMPHskUulckEbf2E54g",
+  "ParentRef": "X2TjfIbbgE6duqQa65xhlQ/_AG6w_Dyy0SFHz2eVszRxg",
+  "Created": "2024-06-23T23:27:53.462131Z",
+  "Updated": "2024-06-23T23:30:49.415529Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.10.2.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
