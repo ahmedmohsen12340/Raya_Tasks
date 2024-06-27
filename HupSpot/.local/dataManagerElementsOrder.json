@@ -1,0 +1,237 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "BusinessException&Sequence_1",
+        "SystemException&Sequence_1",
+        "Dictionary&Sequence_1",
+        "Email&Sequence_1",
+        "Config&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Email/RecieveEmailLogic.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "listAttachments&TryCatch_1",
+        "FileName&Sequence_1",
+        "MissingKeys&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_StrEmailAccountPathToSave",
+        "in_Keys",
+        "in_StrEmailAccount",
+        "out_SystemException",
+        "out_KeyValuePairs",
+        "out_Email"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Email/ExtractKeyValuePairsFromMail.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_Keys",
+        "out_KeyValuePairs",
+        "out_MissingKeys",
+        "in_Seperator",
+        "in_Mail"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Algorithms/Text/ExtractKeyValuePairsFromText.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "regex&Sequence_7",
+        "RegexMatch&Sequence_7"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Keys",
+        "out_KeyValuePairs",
+        "out_MissingKeys",
+        "in_Text",
+        "in_Seperator"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "DatabaseAndHupSpot/CreateContact.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "FileName&Sequence_1",
+        "VID&Sequence_6",
+        "InsertQuery&Sequence_6",
+        "ResStatus&Sequence_1",
+        "ResContent&Sequence_1",
+        "Firstname&Sequence_1",
+        "Lastname&Sequence_1",
+        "Email&Sequence_1",
+        "Website&Sequence_1",
+        "Company&Sequence_1",
+        "Phone&Sequence_1",
+        "Address&Sequence_1",
+        "City&Sequence_1",
+        "State&Sequence_1",
+        "Zip&Sequence_1",
+        "CreationDate&Sequence_1",
+        "apiBody&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_SystemException",
+        "out_BusinessException",
+        "in_strToken",
+        "in_Dic"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "WorkflowTemplate.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "FileName&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_SystemException",
+        "out_BusinessException"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "DatabaseAndHupSpot/DataBaseAndHubSpotMainLogic.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "FileName&Sequence_1",
+        "Subject&Sequence_10"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_strPath",
+        "out_SystemException",
+        "out_BusinessException",
+        "in_Email",
+        "in_Dic",
+        "in_strToken"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "DatabaseAndHupSpot/UpdateContact.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "UpdateQuery&Sequence_6",
+        "ID&Sequence_8",
+        "ResStatus&Sequence_8",
+        "ResContent&Sequence_8",
+        "CreationDate&Sequence_8",
+        "Zip&TryCatch_1",
+        "Phone&Sequence_8",
+        "Company&Sequence_8",
+        "Website&Sequence_8",
+        "Email&Sequence_8",
+        "Lastname&Sequence_8",
+        "Firstname&Sequence_8",
+        "apiBody&Sequence_8",
+        "City&Sequence_8",
+        "State&Sequence_8",
+        "Address&Sequence_8",
+        "FileName&Sequence_1",
+        "VID&Sequence_6"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Dic",
+        "in_strToken",
+        "out_BusinessException",
+        "out_SystemException"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "DatabaseAndHupSpot/DeleteContact.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "DeleteQuery&Sequence_6",
+        "FileName&Sequence_1",
+        "ResContent&Sequence_8",
+        "ResStatus&Sequence_8",
+        "ID&Sequence_8",
+        "VID&Sequence_6"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Dic",
+        "in_strToken",
+        "out_BusinessException",
+        "out_SystemException"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "DatabaseAndHupSpot/GetContacts.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dateFrom&Sequence_8",
+        "dateTo&Sequence_8",
+        "dtGetFromDB&Sequence_8",
+        "Firstname&Sequence_1",
+        "Lastname&Sequence_1",
+        "Email&Sequence_1",
+        "Website&Sequence_1",
+        "Company&Sequence_1",
+        "Phone&Sequence_1",
+        "Address&Sequence_1",
+        "City&Sequence_1",
+        "State&Sequence_1",
+        "Zip&Sequence_1",
+        "CreationDate&Sequence_1",
+        "FileName&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_strPath",
+        "in_Dic",
+        "in_strToken",
+        "out_BusinessException",
+        "out_SystemException"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Excel/ExtraxtDataFromWorkSheet.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dtWorkBook&Sequence_11",
+        "FileName&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_dateTo",
+        "out_dateFrom",
+        "in_strPath",
+        "out_SystemException",
+        "out_BusinessException"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

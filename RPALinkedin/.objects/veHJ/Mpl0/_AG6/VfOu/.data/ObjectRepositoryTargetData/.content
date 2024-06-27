@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="JcdvGWRx606_EriZeZtKsQ" Reference="X2TjfIbbgE6duqQa65xhlQ/VfOumzHeh0a2OxUv5vdE2A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://www.linkedin.com/in/omar-shawky-1505a4203/" DesignTimeRectangle="386, 580, 249, 20" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='A' aaname='*Show all*' idx='2' /&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='*| LinkedIn' /&gt;&lt;webctrl tag='SPAN' aaname='*Show all*licenses &amp;amp; certifications*' check:text='Show all*licenses &amp;amp; certifications' /&gt;" Guid="e9b72270-8e7b-4c53-ba60-0a57dabbd134" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="6de5c93e6d9f7459dd4da1b72803de81.png" xmlns="">02eX50qHzU0S8mVyux-WHlw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

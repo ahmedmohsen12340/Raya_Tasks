@@ -1,0 +1,85 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dtFinal&Sequence_1",
+        "NumberOfResults&Sequence_1",
+        "fileToSendByEmail&Sequence_1",
+        "Config&Sequence_1",
+        "SystemException&Sequence_1",
+        "BusinessException&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Chrome/GetDataLogic.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "blShowMore&Sequence_18",
+        "SeqName&Sequence_15",
+        "SeqName&Sequence_13",
+        "SeqName&Sequence_9",
+        "FileName&Sequence_1",
+        "ExtractDataTable&TryCatch_1",
+        "cerDataTable&TryCatch_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_dtFinal",
+        "out_SystemException",
+        "out_BusinessException"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "workbook/WriteFinalDataTableToWorkwook.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "FileName&Sequence_1",
+        "ExtractDataTable&TryCatch_1",
+        "cerDataTable&TryCatch_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_dtFinal",
+        "out_intNumberOfResults",
+        "out_strFileNameAndPath",
+        "in_strFilePath",
+        "out_BusinessException",
+        "out_SystemException"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Email/SendEmail.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "FileName&Sequence_1",
+        "ExtractDataTable&TryCatch_1",
+        "TotalPrice&TryCatch_1",
+        "ProductsFound&TryCatch_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_strFinalResultFilePath",
+        "in_intNumberOfResults",
+        "in_strAccount",
+        "out_SystemException",
+        "out_BusinessException"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
